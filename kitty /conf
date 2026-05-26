@@ -1,3 +1,5 @@
 # BEGIN_KITTY_THEME
-include diinki_retro.conf
+include theme.conf
 # END_KITTY_THEME
+shell bash -c "fastfetch; exec bash"
+confirm_os_window_close 0
